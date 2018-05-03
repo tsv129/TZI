@@ -1,0 +1,10 @@
+D:\GitHub\TZI\Samos\bin\Debug\Samos.exe.config
+D:\GitHub\TZI\Samos\bin\Debug\Samos.exe
+D:\GitHub\TZI\Samos\bin\Debug\Samos.pdb
+D:\GitHub\TZI\Samos\obj\Debug\Samos.csprojResolveAssemblyReference.cache
+D:\GitHub\TZI\Samos\obj\Debug\Samos.FormMain.resources
+D:\GitHub\TZI\Samos\obj\Debug\Samos.Properties.Resources.resources
+D:\GitHub\TZI\Samos\obj\Debug\Samos.csproj.GenerateResource.cache
+D:\GitHub\TZI\Samos\obj\Debug\Samos.csproj.CoreCompileInputs.cache
+D:\GitHub\TZI\Samos\obj\Debug\Samos.exe
+D:\GitHub\TZI\Samos\obj\Debug\Samos.pdb
