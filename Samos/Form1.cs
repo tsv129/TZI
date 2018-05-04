@@ -21,37 +21,34 @@ namespace Samos
         Random random = new Random();
         TextBox[] tbarr = new TextBox[6];
 
-        private void Random_access(string name)
+        private void Random_access()
         {
-            dataGridView1[0, rid].Value = name;
-
-            for (int i=1; i < 7; i++)
-                dataGridView1[i, rid].Value = "False";
-
-            if (random.Next(2) == 1)
-            {
-                dataGridView1[1, rid].Value = "True";
-                if (random.Next(2) == 1)
-                {
-                    dataGridView1[2, rid].Value = "True";
-                }
-            }
-
-            for (int i=3; i < 7; i++)
-            {
-                if (random.Next(2) == 1)
-                    dataGridView1[i, rid].Value = "True";
-            }
-
-            Color_cell();
+            for (int i = 1; i < 7; i++)
+                Access_type(random.Next(4), i);
 
             rid++;
         }
 
-        private void Expand_rows()
+        private void Access_type(int rand,int num)
         {
-            for (int i = 0; i < 15; i++)
-                dataGridView1.Rows.Add();
+            switch (rand)
+            {
+                case 0:
+                    dataGridView1[num, rid].Style.BackColor = Color.Red;
+                    break;
+
+                case 1:
+                    dataGridView1[num, rid].Style.BackColor = Color.Yellow;
+                    break;
+
+                case 2:
+                    dataGridView1[num, rid].Style.BackColor = Color.Blue;
+                    break;
+
+                case 3:
+                    dataGridView1[num, rid].Style.BackColor = Color.Green;
+                    break;
+            }
         }
 
         private void Color_cell()
@@ -71,9 +68,11 @@ namespace Samos
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (rid % 15 == 0)
-                Expand_rows();
-            Random_access(textBox1.Text);
+            for (int i = 0; i < 3; i++)
+                dataGridView1.Rows.Add();
+            for (int i = 0; i < 4; i++)
+            Random_access();
+            button1.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)
