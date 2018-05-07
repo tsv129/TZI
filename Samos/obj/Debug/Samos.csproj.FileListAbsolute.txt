@@ -18,3 +18,15 @@ C:\Users\STAS\Documents\GitHub\TZI\Samos\obj\Debug\Samos.csproj.GenerateResource
 C:\Users\STAS\Documents\GitHub\TZI\Samos\obj\Debug\Samos.csproj.CoreCompileInputs.cache
 C:\Users\STAS\Documents\GitHub\TZI\Samos\obj\Debug\Samos.exe
 C:\Users\STAS\Documents\GitHub\TZI\Samos\obj\Debug\Samos.pdb
+<<<<<<< HEAD
+C:\Users\student\Documents\Tkachuk\TZI-master\Samos\bin\Debug\Samos.exe.config
+C:\Users\student\Documents\Tkachuk\TZI-master\Samos\obj\Debug\Samos.exe
+C:\Users\student\Documents\Tkachuk\TZI-master\Samos\obj\Debug\Samos.pdb
+C:\Users\student\Documents\Tkachuk\TZI-master\Samos\bin\Debug\Samos.exe
+C:\Users\student\Documents\Tkachuk\TZI-master\Samos\bin\Debug\Samos.pdb
+C:\Users\student\Documents\Tkachuk\TZI-master\Samos\obj\Debug\Samos.csprojResolveAssemblyReference.cache
+C:\Users\student\Documents\Tkachuk\TZI-master\Samos\obj\Debug\Samos.FormMain.resources
+C:\Users\student\Documents\Tkachuk\TZI-master\Samos\obj\Debug\Samos.Properties.Resources.resources
+C:\Users\student\Documents\Tkachuk\TZI-master\Samos\obj\Debug\Samos.csproj.GenerateResource.Cache
+=======
+>>>>>>> 6f7e988ed31967857c1d6b9fb624bb1581d0884e

@@ -136,6 +136,8 @@
     <value>True</value>
   </metadata>
   <metadata name="File6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+<<<<<<< HEAD
+=======
     <value>True</value>
   </metadata>
   <metadata name="User.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -157,6 +159,7 @@
     <value>True</value>
   </metadata>
   <metadata name="File6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+>>>>>>> 6f7e988ed31967857c1d6b9fb624bb1581d0884e
     <value>True</value>
   </metadata>
 </root>

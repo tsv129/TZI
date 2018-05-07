@@ -25,7 +25,11 @@ namespace Samos
         {
             for (int i = 1; i < 7; i++)
                 Access_type(random.Next(4), i);
+<<<<<<< HEAD
+            dataGridView1[0, rid].Value = "User" + (rid + 1).ToString();
+=======
 
+>>>>>>> 6f7e988ed31967857c1d6b9fb624bb1581d0884e
             rid++;
         }
 
@@ -68,21 +72,38 @@ namespace Samos
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
+            for (int i = 0; i < 4; i++)
+                dataGridView1.Rows.Add();
+            for (int i = 0; i < 4; i++)
+            Random_access();
+            Spawn_admin();
+            List_add();
+            button1.Visible = false;
+
+=======
             for (int i = 0; i < 3; i++)
                 dataGridView1.Rows.Add();
             for (int i = 0; i < 4; i++)
             Random_access();
             button1.Visible = false;
+>>>>>>> 6f7e988ed31967857c1d6b9fb624bb1581d0884e
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Spawn_admin()
         {
-            dataGridView1.Rows.Add();
+            dataGridView1[0, 4].Value = "Admin";
+            for (int i = 1; i < 7; i++)
+                dataGridView1[i, 4].Style.BackColor = Color.Green;
+            comboBox1.Visible = true;
+            label1.Visible = true;
+            button2.Visible = true;
         }
 
-        private void button2_Click_1(object sender, EventArgs e)
+        private void List_add()
         {
-            dataGridView1.Rows.Add();
+            for (int i = 0; i < 5; i++)
+            comboBox1.Items.Add(dataGridView1[0, i].Value);
         }
 
         private void FormMain_Load(object sender, EventArgs e)
@@ -93,6 +114,17 @@ namespace Samos
             tbarr[3] = textBox5;
             tbarr[4] = textBox6;
             tbarr[5] = textBox7;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                if (comboBox1.Text == dataGridView1[0, i].Value.ToString())
+                {
+                    dataGridView1.
+                }
+            }
         }
     }
 }
